@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmauditoria.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmauditoria.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmreportes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmreportes.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmgastos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmgastos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmprospeccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmprospeccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|c:\\users\\usuario\\desktop\\proyecto final\\pawned46_project\\pawned46_project\\forms\\frmprospeccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{24CCF3B6-F477-4D07-A49C-97B1D9A92681}|PAWNED46_project\\PAWNED46_project.vbproj|solutionrelative:pawned46_project\\forms\\frmprospeccion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.vb",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmLogin.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmLogin.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmLogin.vb",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmLogin.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-22T04:13:31.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmLogin.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmLogin.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmLogin.vb [Dise\u00F1o]",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmLogin.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-22T04:13:25.998Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAuditoria.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmAuditoria.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmAuditoria.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmAuditoria.vb [Dise\u00F1o]",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmAuditoria.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-22T02:23:03.808Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmReportes.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmReportes.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmReportes.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmReportes.vb [Dise\u00F1o]",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmReportes.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-22T02:22:43.806Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmProspeccion.vb",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmProspeccion.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmProspeccion.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmProspeccion.vb",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmProspeccion.vb",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAEwHQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-22T02:15:23.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmProspeccion.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmProspeccion.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmProspeccion.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmProspeccion.vb [Dise\u00F1o]",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmProspeccion.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-22T01:44:53.124Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmGastos.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmGastos.vb",
+              "RelativeDocumentMoniker": "PAWNED46_project\\Forms\\frmGastos.vb",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\PROYECTO FINAL\\PAWNED46_project\\PAWNED46_project\\Forms\\frmGastos.vb [Dise\u00F1o]",
+              "RelativeToolTip": "PAWNED46_project\\Forms\\frmGastos.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-21T03:50:10.283Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
