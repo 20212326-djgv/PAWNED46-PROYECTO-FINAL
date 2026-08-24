@@ -23,6 +23,8 @@ Partial Class frmProspeccion
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.pnl_menu = New System.Windows.Forms.Panel()
+        Me.lblSubtitulo = New System.Windows.Forms.Label()
+        Me.lblLogo = New System.Windows.Forms.Label()
         Me.pnlBotones = New System.Windows.Forms.Panel()
         Me.btncerrarSesion = New System.Windows.Forms.Button()
         Me.btnAuditoria = New System.Windows.Forms.Button()
@@ -36,11 +38,10 @@ Partial Class frmProspeccion
         Me.btnArticulos = New System.Windows.Forms.Button()
         Me.btnClientes = New System.Windows.Forms.Button()
         Me.btnDashboard = New System.Windows.Forms.Button()
-        Me.lblSubtitulo = New System.Windows.Forms.Label()
-        Me.lblLogo = New System.Windows.Forms.Label()
         Me.pnlHeader = New System.Windows.Forms.Panel()
-        Me.lblTituloModulo = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.lblTituloModulo = New System.Windows.Forms.Label()
         Me.pnlContenido = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.lblPagosDia = New System.Windows.Forms.Label()
@@ -65,6 +66,7 @@ Partial Class frmProspeccion
         Me.pnl_menu.SuspendLayout()
         Me.pnlBotones.SuspendLayout()
         Me.pnlHeader.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlContenido.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.grpProximosVencer.SuspendLayout()
@@ -77,213 +79,14 @@ Partial Class frmProspeccion
         'pnl_menu
         '
         Me.pnl_menu.BackColor = System.Drawing.Color.FromArgb(CType(CType(23, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(43, Byte), Integer))
-        Me.pnl_menu.Controls.Add(Me.pnlBotones)
         Me.pnl_menu.Controls.Add(Me.lblSubtitulo)
         Me.pnl_menu.Controls.Add(Me.lblLogo)
+        Me.pnl_menu.Controls.Add(Me.pnlBotones)
         Me.pnl_menu.Dock = System.Windows.Forms.DockStyle.Left
         Me.pnl_menu.Location = New System.Drawing.Point(0, 0)
         Me.pnl_menu.Name = "pnl_menu"
-        Me.pnl_menu.Size = New System.Drawing.Size(220, 450)
+        Me.pnl_menu.Size = New System.Drawing.Size(220, 691)
         Me.pnl_menu.TabIndex = 0
-        '
-        'pnlBotones
-        '
-        Me.pnlBotones.Controls.Add(Me.btncerrarSesion)
-        Me.pnlBotones.Controls.Add(Me.btnAuditoria)
-        Me.pnlBotones.Controls.Add(Me.btnUsuarios)
-        Me.pnlBotones.Controls.Add(Me.btnReportes)
-        Me.pnlBotones.Controls.Add(Me.btnGastos)
-        Me.pnlBotones.Controls.Add(Me.btnVentas)
-        Me.pnlBotones.Controls.Add(Me.btnRenovaciones)
-        Me.pnlBotones.Controls.Add(Me.btnPagos)
-        Me.pnlBotones.Controls.Add(Me.btnPrestamos)
-        Me.pnlBotones.Controls.Add(Me.btnArticulos)
-        Me.pnlBotones.Controls.Add(Me.btnClientes)
-        Me.pnlBotones.Controls.Add(Me.btnDashboard)
-        Me.pnlBotones.Location = New System.Drawing.Point(0, 60)
-        Me.pnlBotones.Name = "pnlBotones"
-        Me.pnlBotones.Size = New System.Drawing.Size(220, 390)
-        Me.pnlBotones.TabIndex = 0
-        '
-        'btncerrarSesion
-        '
-        Me.btncerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.btncerrarSesion.FlatAppearance.BorderSize = 0
-        Me.btncerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btncerrarSesion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btncerrarSesion.ForeColor = System.Drawing.Color.White
-        Me.btncerrarSesion.Location = New System.Drawing.Point(0, 367)
-        Me.btncerrarSesion.Name = "btncerrarSesion"
-        Me.btncerrarSesion.Size = New System.Drawing.Size(220, 23)
-        Me.btncerrarSesion.TabIndex = 11
-        Me.btncerrarSesion.Text = "Cerrar Sesion"
-        Me.btncerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btncerrarSesion.UseVisualStyleBackColor = True
-        '
-        'btnAuditoria
-        '
-        Me.btnAuditoria.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnAuditoria.FlatAppearance.BorderSize = 0
-        Me.btnAuditoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAuditoria.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAuditoria.ForeColor = System.Drawing.Color.White
-        Me.btnAuditoria.Location = New System.Drawing.Point(0, 319)
-        Me.btnAuditoria.Name = "btnAuditoria"
-        Me.btnAuditoria.Size = New System.Drawing.Size(220, 30)
-        Me.btnAuditoria.TabIndex = 10
-        Me.btnAuditoria.Text = "Auditoria"
-        Me.btnAuditoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAuditoria.UseVisualStyleBackColor = True
-        '
-        'btnUsuarios
-        '
-        Me.btnUsuarios.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnUsuarios.FlatAppearance.BorderSize = 0
-        Me.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnUsuarios.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUsuarios.ForeColor = System.Drawing.Color.White
-        Me.btnUsuarios.Location = New System.Drawing.Point(0, 289)
-        Me.btnUsuarios.Name = "btnUsuarios"
-        Me.btnUsuarios.Size = New System.Drawing.Size(220, 30)
-        Me.btnUsuarios.TabIndex = 9
-        Me.btnUsuarios.Text = "Usuarios"
-        Me.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnUsuarios.UseVisualStyleBackColor = True
-        '
-        'btnReportes
-        '
-        Me.btnReportes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnReportes.FlatAppearance.BorderSize = 0
-        Me.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnReportes.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReportes.ForeColor = System.Drawing.Color.White
-        Me.btnReportes.Location = New System.Drawing.Point(0, 259)
-        Me.btnReportes.Name = "btnReportes"
-        Me.btnReportes.Size = New System.Drawing.Size(220, 30)
-        Me.btnReportes.TabIndex = 8
-        Me.btnReportes.Text = "Reportes"
-        Me.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnReportes.UseVisualStyleBackColor = True
-        '
-        'btnGastos
-        '
-        Me.btnGastos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnGastos.FlatAppearance.BorderSize = 0
-        Me.btnGastos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnGastos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnGastos.ForeColor = System.Drawing.Color.White
-        Me.btnGastos.Location = New System.Drawing.Point(0, 229)
-        Me.btnGastos.Name = "btnGastos"
-        Me.btnGastos.Size = New System.Drawing.Size(220, 30)
-        Me.btnGastos.TabIndex = 7
-        Me.btnGastos.Text = "Gastos"
-        Me.btnGastos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnGastos.UseVisualStyleBackColor = True
-        '
-        'btnVentas
-        '
-        Me.btnVentas.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnVentas.FlatAppearance.BorderSize = 0
-        Me.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnVentas.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnVentas.ForeColor = System.Drawing.Color.White
-        Me.btnVentas.Location = New System.Drawing.Point(0, 199)
-        Me.btnVentas.Name = "btnVentas"
-        Me.btnVentas.Size = New System.Drawing.Size(220, 30)
-        Me.btnVentas.TabIndex = 6
-        Me.btnVentas.Text = "Ventas"
-        Me.btnVentas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnVentas.UseVisualStyleBackColor = True
-        '
-        'btnRenovaciones
-        '
-        Me.btnRenovaciones.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnRenovaciones.FlatAppearance.BorderSize = 0
-        Me.btnRenovaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnRenovaciones.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnRenovaciones.ForeColor = System.Drawing.Color.White
-        Me.btnRenovaciones.Location = New System.Drawing.Point(0, 169)
-        Me.btnRenovaciones.Name = "btnRenovaciones"
-        Me.btnRenovaciones.Size = New System.Drawing.Size(220, 30)
-        Me.btnRenovaciones.TabIndex = 5
-        Me.btnRenovaciones.Text = "Renovaciones"
-        Me.btnRenovaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnRenovaciones.UseVisualStyleBackColor = True
-        '
-        'btnPagos
-        '
-        Me.btnPagos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnPagos.FlatAppearance.BorderSize = 0
-        Me.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPagos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPagos.ForeColor = System.Drawing.Color.White
-        Me.btnPagos.Location = New System.Drawing.Point(0, 139)
-        Me.btnPagos.Name = "btnPagos"
-        Me.btnPagos.Size = New System.Drawing.Size(220, 30)
-        Me.btnPagos.TabIndex = 4
-        Me.btnPagos.Text = "Pagos"
-        Me.btnPagos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPagos.UseVisualStyleBackColor = True
-        '
-        'btnPrestamos
-        '
-        Me.btnPrestamos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnPrestamos.FlatAppearance.BorderSize = 0
-        Me.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPrestamos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPrestamos.ForeColor = System.Drawing.Color.White
-        Me.btnPrestamos.Location = New System.Drawing.Point(0, 109)
-        Me.btnPrestamos.Name = "btnPrestamos"
-        Me.btnPrestamos.Size = New System.Drawing.Size(220, 30)
-        Me.btnPrestamos.TabIndex = 3
-        Me.btnPrestamos.Text = "Prestamos"
-        Me.btnPrestamos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnPrestamos.UseVisualStyleBackColor = True
-        '
-        'btnArticulos
-        '
-        Me.btnArticulos.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnArticulos.FlatAppearance.BorderSize = 0
-        Me.btnArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnArticulos.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnArticulos.ForeColor = System.Drawing.Color.White
-        Me.btnArticulos.Location = New System.Drawing.Point(0, 79)
-        Me.btnArticulos.Name = "btnArticulos"
-        Me.btnArticulos.Size = New System.Drawing.Size(220, 30)
-        Me.btnArticulos.TabIndex = 2
-        Me.btnArticulos.Text = "Artículos"
-        Me.btnArticulos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnArticulos.UseVisualStyleBackColor = True
-        '
-        'btnClientes
-        '
-        Me.btnClientes.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnClientes.FlatAppearance.BorderSize = 0
-        Me.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnClientes.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClientes.ForeColor = System.Drawing.Color.White
-        Me.btnClientes.Location = New System.Drawing.Point(0, 49)
-        Me.btnClientes.Name = "btnClientes"
-        Me.btnClientes.Size = New System.Drawing.Size(220, 30)
-        Me.btnClientes.TabIndex = 1
-        Me.btnClientes.Text = "Clientes"
-        Me.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnClientes.UseVisualStyleBackColor = True
-        '
-        'btnDashboard
-        '
-        Me.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnDashboard.FlatAppearance.BorderSize = 0
-        Me.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDashboard.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDashboard.ForeColor = System.Drawing.Color.White
-        Me.btnDashboard.Location = New System.Drawing.Point(0, 0)
-        Me.btnDashboard.Name = "btnDashboard"
-        Me.btnDashboard.Size = New System.Drawing.Size(220, 49)
-        Me.btnDashboard.TabIndex = 0
-        Me.btnDashboard.Text = "Dashboard"
-        Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashboard.UseVisualStyleBackColor = True
         '
         'lblSubtitulo
         '
@@ -307,16 +110,239 @@ Partial Class frmProspeccion
         Me.lblLogo.TabIndex = 0
         Me.lblLogo.Text = "PAWNED 46"
         '
+        'pnlBotones
+        '
+        Me.pnlBotones.Controls.Add(Me.btncerrarSesion)
+        Me.pnlBotones.Controls.Add(Me.btnAuditoria)
+        Me.pnlBotones.Controls.Add(Me.btnUsuarios)
+        Me.pnlBotones.Controls.Add(Me.btnReportes)
+        Me.pnlBotones.Controls.Add(Me.btnGastos)
+        Me.pnlBotones.Controls.Add(Me.btnVentas)
+        Me.pnlBotones.Controls.Add(Me.btnRenovaciones)
+        Me.pnlBotones.Controls.Add(Me.btnPagos)
+        Me.pnlBotones.Controls.Add(Me.btnPrestamos)
+        Me.pnlBotones.Controls.Add(Me.btnArticulos)
+        Me.pnlBotones.Controls.Add(Me.btnClientes)
+        Me.pnlBotones.Controls.Add(Me.btnDashboard)
+        Me.pnlBotones.Dock = System.Windows.Forms.DockStyle.Left
+        Me.pnlBotones.Location = New System.Drawing.Point(0, 0)
+        Me.pnlBotones.Name = "pnlBotones"
+        Me.pnlBotones.Size = New System.Drawing.Size(220, 691)
+        Me.pnlBotones.TabIndex = 0
+        '
+        'btncerrarSesion
+        '
+        Me.btncerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.btncerrarSesion.FlatAppearance.BorderSize = 0
+        Me.btncerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btncerrarSesion.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncerrarSesion.ForeColor = System.Drawing.Color.White
+        Me.btncerrarSesion.Location = New System.Drawing.Point(0, 668)
+        Me.btncerrarSesion.Name = "btncerrarSesion"
+        Me.btncerrarSesion.Size = New System.Drawing.Size(220, 23)
+        Me.btncerrarSesion.TabIndex = 11
+        Me.btncerrarSesion.Text = "Cerrar Sesion"
+        Me.btncerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btncerrarSesion.UseVisualStyleBackColor = True
+        '
+        'btnAuditoria
+        '
+        Me.btnAuditoria.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnAuditoria.FlatAppearance.BorderSize = 0
+        Me.btnAuditoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAuditoria.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAuditoria.ForeColor = System.Drawing.Color.White
+        Me.btnAuditoria.Location = New System.Drawing.Point(0, 465)
+        Me.btnAuditoria.Name = "btnAuditoria"
+        Me.btnAuditoria.Size = New System.Drawing.Size(220, 45)
+        Me.btnAuditoria.TabIndex = 10
+        Me.btnAuditoria.Text = "Auditoria"
+        Me.btnAuditoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAuditoria.UseVisualStyleBackColor = True
+        '
+        'btnUsuarios
+        '
+        Me.btnUsuarios.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnUsuarios.FlatAppearance.BorderSize = 0
+        Me.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUsuarios.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUsuarios.ForeColor = System.Drawing.Color.White
+        Me.btnUsuarios.Location = New System.Drawing.Point(0, 420)
+        Me.btnUsuarios.Name = "btnUsuarios"
+        Me.btnUsuarios.Size = New System.Drawing.Size(220, 45)
+        Me.btnUsuarios.TabIndex = 9
+        Me.btnUsuarios.Text = "Usuarios"
+        Me.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnUsuarios.UseVisualStyleBackColor = True
+        '
+        'btnReportes
+        '
+        Me.btnReportes.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnReportes.FlatAppearance.BorderSize = 0
+        Me.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReportes.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReportes.ForeColor = System.Drawing.Color.White
+        Me.btnReportes.Location = New System.Drawing.Point(0, 375)
+        Me.btnReportes.Name = "btnReportes"
+        Me.btnReportes.Size = New System.Drawing.Size(220, 45)
+        Me.btnReportes.TabIndex = 8
+        Me.btnReportes.Text = "Reportes"
+        Me.btnReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnReportes.UseVisualStyleBackColor = True
+        '
+        'btnGastos
+        '
+        Me.btnGastos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnGastos.FlatAppearance.BorderSize = 0
+        Me.btnGastos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnGastos.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnGastos.ForeColor = System.Drawing.Color.White
+        Me.btnGastos.Location = New System.Drawing.Point(0, 330)
+        Me.btnGastos.Name = "btnGastos"
+        Me.btnGastos.Size = New System.Drawing.Size(220, 45)
+        Me.btnGastos.TabIndex = 7
+        Me.btnGastos.Text = "Gastos"
+        Me.btnGastos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnGastos.UseVisualStyleBackColor = True
+        '
+        'btnVentas
+        '
+        Me.btnVentas.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnVentas.FlatAppearance.BorderSize = 0
+        Me.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnVentas.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVentas.ForeColor = System.Drawing.Color.White
+        Me.btnVentas.Location = New System.Drawing.Point(0, 285)
+        Me.btnVentas.Name = "btnVentas"
+        Me.btnVentas.Size = New System.Drawing.Size(220, 45)
+        Me.btnVentas.TabIndex = 6
+        Me.btnVentas.Text = "Ventas"
+        Me.btnVentas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnVentas.UseVisualStyleBackColor = True
+        '
+        'btnRenovaciones
+        '
+        Me.btnRenovaciones.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnRenovaciones.FlatAppearance.BorderSize = 0
+        Me.btnRenovaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRenovaciones.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRenovaciones.ForeColor = System.Drawing.Color.White
+        Me.btnRenovaciones.Location = New System.Drawing.Point(0, 240)
+        Me.btnRenovaciones.Name = "btnRenovaciones"
+        Me.btnRenovaciones.Size = New System.Drawing.Size(220, 45)
+        Me.btnRenovaciones.TabIndex = 5
+        Me.btnRenovaciones.Text = "Renovaciones"
+        Me.btnRenovaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnRenovaciones.UseVisualStyleBackColor = True
+        '
+        'btnPagos
+        '
+        Me.btnPagos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnPagos.FlatAppearance.BorderSize = 0
+        Me.btnPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPagos.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPagos.ForeColor = System.Drawing.Color.White
+        Me.btnPagos.Location = New System.Drawing.Point(0, 195)
+        Me.btnPagos.Name = "btnPagos"
+        Me.btnPagos.Size = New System.Drawing.Size(220, 45)
+        Me.btnPagos.TabIndex = 4
+        Me.btnPagos.Text = "Pagos"
+        Me.btnPagos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPagos.UseVisualStyleBackColor = True
+        '
+        'btnPrestamos
+        '
+        Me.btnPrestamos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnPrestamos.FlatAppearance.BorderSize = 0
+        Me.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPrestamos.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPrestamos.ForeColor = System.Drawing.Color.White
+        Me.btnPrestamos.Location = New System.Drawing.Point(0, 150)
+        Me.btnPrestamos.Name = "btnPrestamos"
+        Me.btnPrestamos.Size = New System.Drawing.Size(220, 45)
+        Me.btnPrestamos.TabIndex = 3
+        Me.btnPrestamos.Text = "Prestamos"
+        Me.btnPrestamos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPrestamos.UseVisualStyleBackColor = True
+        '
+        'btnArticulos
+        '
+        Me.btnArticulos.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnArticulos.FlatAppearance.BorderSize = 0
+        Me.btnArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnArticulos.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnArticulos.ForeColor = System.Drawing.Color.White
+        Me.btnArticulos.Location = New System.Drawing.Point(0, 105)
+        Me.btnArticulos.Name = "btnArticulos"
+        Me.btnArticulos.Size = New System.Drawing.Size(220, 45)
+        Me.btnArticulos.TabIndex = 2
+        Me.btnArticulos.Text = "Artículos"
+        Me.btnArticulos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnArticulos.UseVisualStyleBackColor = True
+        '
+        'btnClientes
+        '
+        Me.btnClientes.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnClientes.FlatAppearance.BorderSize = 0
+        Me.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClientes.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClientes.ForeColor = System.Drawing.Color.White
+        Me.btnClientes.Location = New System.Drawing.Point(0, 60)
+        Me.btnClientes.Name = "btnClientes"
+        Me.btnClientes.Size = New System.Drawing.Size(220, 45)
+        Me.btnClientes.TabIndex = 1
+        Me.btnClientes.Text = "Clientes"
+        Me.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnClientes.UseVisualStyleBackColor = True
+        '
+        'btnDashboard
+        '
+        Me.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnDashboard.FlatAppearance.BorderSize = 0
+        Me.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDashboard.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDashboard.ForeColor = System.Drawing.Color.White
+        Me.btnDashboard.Location = New System.Drawing.Point(0, 0)
+        Me.btnDashboard.Name = "btnDashboard"
+        Me.btnDashboard.Size = New System.Drawing.Size(220, 60)
+        Me.btnDashboard.TabIndex = 0
+        Me.btnDashboard.Text = "Dashboard"
+        Me.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnDashboard.UseVisualStyleBackColor = True
+        '
         'pnlHeader
         '
         Me.pnlHeader.BackColor = System.Drawing.Color.White
-        Me.pnlHeader.Controls.Add(Me.lblTituloModulo)
         Me.pnlHeader.Controls.Add(Me.Label2)
+        Me.pnlHeader.Controls.Add(Me.PictureBox1)
+        Me.pnlHeader.Controls.Add(Me.lblTituloModulo)
         Me.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top
         Me.pnlHeader.Location = New System.Drawing.Point(220, 0)
         Me.pnlHeader.Name = "pnlHeader"
-        Me.pnlHeader.Size = New System.Drawing.Size(580, 60)
+        Me.pnlHeader.Size = New System.Drawing.Size(964, 60)
         Me.pnlHeader.TabIndex = 1
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(806, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(100, 15)
+        Me.Label2.TabIndex = 3
+        Me.Label2.Text = "USUARIO: Admin"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Right
+        Me.PictureBox1.Image = Global.PAWNED46_project.My.Resources.Resources.user_account_person_avatar_icon_131248
+        Me.PictureBox1.Location = New System.Drawing.Point(906, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(58, 60)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'lblTituloModulo
         '
@@ -327,16 +353,6 @@ Partial Class frmProspeccion
         Me.lblTituloModulo.Size = New System.Drawing.Size(105, 25)
         Me.lblTituloModulo.TabIndex = 1
         Me.lblTituloModulo.Text = "Dashboard"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(426, 21)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 15)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "USUARIO: Admin"
         '
         'pnlContenido
         '
@@ -352,7 +368,7 @@ Partial Class frmProspeccion
         Me.pnlContenido.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pnlContenido.Location = New System.Drawing.Point(220, 60)
         Me.pnlContenido.Name = "pnlContenido"
-        Me.pnlContenido.Size = New System.Drawing.Size(580, 390)
+        Me.pnlContenido.Size = New System.Drawing.Size(964, 631)
         Me.pnlContenido.TabIndex = 2
         '
         'Panel3
@@ -360,7 +376,7 @@ Partial Class frmProspeccion
         Me.Panel3.BackColor = System.Drawing.Color.White
         Me.Panel3.Controls.Add(Me.lblPagosDia)
         Me.Panel3.Controls.Add(Me.lblTituloPagos)
-        Me.Panel3.Location = New System.Drawing.Point(284, 108)
+        Me.Panel3.Location = New System.Drawing.Point(456, 95)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(107, 55)
         Me.Panel3.TabIndex = 6
@@ -390,9 +406,9 @@ Partial Class frmProspeccion
         Me.grpProximosVencer.BackColor = System.Drawing.Color.White
         Me.grpProximosVencer.Controls.Add(Me.dgv_articulosPrestamo)
         Me.grpProximosVencer.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.grpProximosVencer.Location = New System.Drawing.Point(34, 180)
+        Me.grpProximosVencer.Location = New System.Drawing.Point(109, 167)
         Me.grpProximosVencer.Name = "grpProximosVencer"
-        Me.grpProximosVencer.Size = New System.Drawing.Size(506, 178)
+        Me.grpProximosVencer.Size = New System.Drawing.Size(647, 275)
         Me.grpProximosVencer.TabIndex = 19
         Me.grpProximosVencer.TabStop = False
         Me.grpProximosVencer.Text = "PRESTAMOS PROXIMOS A VENCER"
@@ -411,7 +427,7 @@ Partial Class frmProspeccion
         Me.dgv_articulosPrestamo.ReadOnly = True
         Me.dgv_articulosPrestamo.RowHeadersVisible = False
         Me.dgv_articulosPrestamo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.dgv_articulosPrestamo.Size = New System.Drawing.Size(456, 124)
+        Me.dgv_articulosPrestamo.Size = New System.Drawing.Size(596, 245)
         Me.dgv_articulosPrestamo.TabIndex = 8
         '
         'Contrato
@@ -443,7 +459,7 @@ Partial Class frmProspeccion
         Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.Controls.Add(Me.lblCantidadVencidos)
         Me.Panel2.Controls.Add(Me.lblTituloVencidos)
-        Me.Panel2.Location = New System.Drawing.Point(400, 108)
+        Me.Panel2.Location = New System.Drawing.Point(613, 95)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(143, 55)
         Me.Panel2.TabIndex = 6
@@ -473,7 +489,7 @@ Partial Class frmProspeccion
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.lblCapitalPrestado)
-        Me.Panel1.Location = New System.Drawing.Point(152, 108)
+        Me.Panel1.Location = New System.Drawing.Point(278, 95)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(122, 55)
         Me.Panel1.TabIndex = 5
@@ -503,7 +519,7 @@ Partial Class frmProspeccion
         Me.pnlPrestamosActivos.BackColor = System.Drawing.Color.White
         Me.pnlPrestamosActivos.Controls.Add(Me.lblCantidadPrestamos)
         Me.pnlPrestamosActivos.Controls.Add(Me.lblTituloPrestamosActivos)
-        Me.pnlPrestamosActivos.Location = New System.Drawing.Point(30, 108)
+        Me.pnlPrestamosActivos.Location = New System.Drawing.Point(105, 95)
         Me.pnlPrestamosActivos.Name = "pnlPrestamosActivos"
         Me.pnlPrestamosActivos.Size = New System.Drawing.Size(113, 55)
         Me.pnlPrestamosActivos.TabIndex = 4
@@ -552,7 +568,7 @@ Partial Class frmProspeccion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1184, 691)
         Me.Controls.Add(Me.pnlContenido)
         Me.Controls.Add(Me.pnlHeader)
         Me.Controls.Add(Me.pnl_menu)
@@ -563,6 +579,7 @@ Partial Class frmProspeccion
         Me.pnlBotones.ResumeLayout(False)
         Me.pnlHeader.ResumeLayout(False)
         Me.pnlHeader.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlContenido.ResumeLayout(False)
         Me.pnlContenido.PerformLayout()
         Me.Panel3.ResumeLayout(False)
@@ -583,7 +600,6 @@ Partial Class frmProspeccion
     Friend WithEvents pnlHeader As Panel
     Friend WithEvents pnlContenido As Panel
     Friend WithEvents lblLogo As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents pnlBotones As Panel
     Friend WithEvents lblSubtitulo As Label
     Friend WithEvents btnPagos As Button
@@ -619,4 +635,6 @@ Partial Class frmProspeccion
     Friend WithEvents Cliente As DataGridViewTextBoxColumn
     Friend WithEvents Vencimiento As DataGridViewTextBoxColumn
     Friend WithEvents Saldo As DataGridViewTextBoxColumn
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label2 As Label
 End Class

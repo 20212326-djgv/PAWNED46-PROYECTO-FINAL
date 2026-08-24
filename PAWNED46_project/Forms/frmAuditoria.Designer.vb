@@ -81,7 +81,7 @@ Partial Class frmAuditoria
         Me.grpFiltros.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpFiltros.Location = New System.Drawing.Point(12, 34)
         Me.grpFiltros.Name = "grpFiltros"
-        Me.grpFiltros.Size = New System.Drawing.Size(1060, 150)
+        Me.grpFiltros.Size = New System.Drawing.Size(933, 150)
         Me.grpFiltros.TabIndex = 3
         Me.grpFiltros.TabStop = False
         Me.grpFiltros.Text = "Filtros de Auditoria"
@@ -210,7 +210,7 @@ Partial Class frmAuditoria
         Me.grpHistorial.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpHistorial.Location = New System.Drawing.Point(12, 190)
         Me.grpHistorial.Name = "grpHistorial"
-        Me.grpHistorial.Size = New System.Drawing.Size(1060, 373)
+        Me.grpHistorial.Size = New System.Drawing.Size(933, 373)
         Me.grpHistorial.TabIndex = 13
         Me.grpHistorial.TabStop = False
         Me.grpHistorial.Text = "HISTORIAL DE AUDITORIA"
@@ -223,7 +223,7 @@ Partial Class frmAuditoria
         Me.dgvAuditoria.BackgroundColor = System.Drawing.Color.White
         Me.dgvAuditoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvAuditoria.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.usuario, Me.Accion, Me.Tabla, Me.Registro, Me.FechaHora, Me.Equipo, Me.Descripcion})
-        Me.dgvAuditoria.Location = New System.Drawing.Point(94, 24)
+        Me.dgvAuditoria.Location = New System.Drawing.Point(35, 24)
         Me.dgvAuditoria.MultiSelect = False
         Me.dgvAuditoria.Name = "dgvAuditoria"
         Me.dgvAuditoria.ReadOnly = True
@@ -279,7 +279,7 @@ Partial Class frmAuditoria
         Me.btnExportar.BackColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(84, Byte), Integer))
         Me.btnExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnExportar.ForeColor = System.Drawing.Color.Transparent
-        Me.btnExportar.Location = New System.Drawing.Point(962, 569)
+        Me.btnExportar.Location = New System.Drawing.Point(835, 569)
         Me.btnExportar.Name = "btnExportar"
         Me.btnExportar.Size = New System.Drawing.Size(110, 37)
         Me.btnExportar.TabIndex = 22
@@ -291,7 +291,7 @@ Partial Class frmAuditoria
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(246, Byte), Integer), CType(CType(248, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1084, 661)
+        Me.ClientSize = New System.Drawing.Size(965, 621)
         Me.Controls.Add(Me.btnExportar)
         Me.Controls.Add(Me.grpHistorial)
         Me.Controls.Add(Me.grpFiltros)

@@ -24,6 +24,9 @@ Partial Class frmGastos
     Private Sub InitializeComponent()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.grpGasto = New System.Windows.Forms.GroupBox()
+        Me.txtObservaciones = New System.Windows.Forms.TextBox()
+        Me.lblMonto = New System.Windows.Forms.Label()
+        Me.cmbCategoria = New System.Windows.Forms.ComboBox()
         Me.lblObservaciones = New System.Windows.Forms.Label()
         Me.txtUsuario = New System.Windows.Forms.TextBox()
         Me.lblUsuario = New System.Windows.Forms.Label()
@@ -33,9 +36,6 @@ Partial Class frmGastos
         Me.lblCategoria = New System.Windows.Forms.Label()
         Me.lblDescripcion = New System.Windows.Forms.Label()
         Me.lblFecha = New System.Windows.Forms.Label()
-        Me.cmbCategoria = New System.Windows.Forms.ComboBox()
-        Me.lblMonto = New System.Windows.Forms.Label()
-        Me.txtObservaciones = New System.Windows.Forms.TextBox()
         Me.grpHistorial = New System.Windows.Forms.GroupBox()
         Me.dgv_articulosPrestamo = New System.Windows.Forms.DataGridView()
         Me.Fecha = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -92,6 +92,35 @@ Partial Class frmGastos
         Me.grpGasto.TabIndex = 11
         Me.grpGasto.TabStop = False
         Me.grpGasto.Text = "INFORMACION DEL GASTO"
+        '
+        'txtObservaciones
+        '
+        Me.txtObservaciones.Location = New System.Drawing.Point(601, 43)
+        Me.txtObservaciones.Multiline = True
+        Me.txtObservaciones.Name = "txtObservaciones"
+        Me.txtObservaciones.ReadOnly = True
+        Me.txtObservaciones.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtObservaciones.Size = New System.Drawing.Size(288, 93)
+        Me.txtObservaciones.TabIndex = 17
+        '
+        'lblMonto
+        '
+        Me.lblMonto.AutoSize = True
+        Me.lblMonto.Location = New System.Drawing.Point(69, 114)
+        Me.lblMonto.Name = "lblMonto"
+        Me.lblMonto.Size = New System.Drawing.Size(52, 17)
+        Me.lblMonto.TabIndex = 16
+        Me.lblMonto.Text = "Monto:"
+        '
+        'cmbCategoria
+        '
+        Me.cmbCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbCategoria.FormattingEnabled = True
+        Me.cmbCategoria.Items.AddRange(New Object() {"Servicios", "Materiales", "Mantenimiento", "Transporte", "Publicidad", "Equipos", "Otros"})
+        Me.cmbCategoria.Location = New System.Drawing.Point(139, 76)
+        Me.cmbCategoria.Name = "cmbCategoria"
+        Me.cmbCategoria.Size = New System.Drawing.Size(149, 25)
+        Me.cmbCategoria.TabIndex = 15
         '
         'lblObservaciones
         '
@@ -169,35 +198,6 @@ Partial Class frmGastos
         Me.lblFecha.Size = New System.Drawing.Size(46, 17)
         Me.lblFecha.TabIndex = 4
         Me.lblFecha.Text = "Fecha:"
-        '
-        'cmbCategoria
-        '
-        Me.cmbCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbCategoria.FormattingEnabled = True
-        Me.cmbCategoria.Items.AddRange(New Object() {"Servicios", "Materiales", "Mantenimiento", "Transporte", "Publicidad", "Equipos", "Otros"})
-        Me.cmbCategoria.Location = New System.Drawing.Point(139, 76)
-        Me.cmbCategoria.Name = "cmbCategoria"
-        Me.cmbCategoria.Size = New System.Drawing.Size(149, 25)
-        Me.cmbCategoria.TabIndex = 15
-        '
-        'lblMonto
-        '
-        Me.lblMonto.AutoSize = True
-        Me.lblMonto.Location = New System.Drawing.Point(69, 114)
-        Me.lblMonto.Name = "lblMonto"
-        Me.lblMonto.Size = New System.Drawing.Size(52, 17)
-        Me.lblMonto.TabIndex = 16
-        Me.lblMonto.Text = "Monto:"
-        '
-        'txtObservaciones
-        '
-        Me.txtObservaciones.Location = New System.Drawing.Point(601, 43)
-        Me.txtObservaciones.Multiline = True
-        Me.txtObservaciones.Name = "txtObservaciones"
-        Me.txtObservaciones.ReadOnly = True
-        Me.txtObservaciones.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtObservaciones.Size = New System.Drawing.Size(288, 93)
-        Me.txtObservaciones.TabIndex = 17
         '
         'grpHistorial
         '
